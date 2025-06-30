@@ -1,0 +1,54 @@
+/* General style */
+
+html, body {
+  height: 100%;
+
+}
+
+body{
+  min-width: 320px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.wrapper{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main.main{
+  flex: 1 1 auto;
+}
+
+/* Header style */
+
+.header-top {
+  padding-top: 5vh;  
+  padding-left: 5vw;   
+  padding-right: 5vw;  
+}
+
+ul.header-top-menu {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+ul.header-top-menu a {
+  color: #333333;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top-burger {
+  display: flex;
+  justify-content: flex-end;
+}
